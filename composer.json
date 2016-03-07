@@ -1,0 +1,32 @@
+{
+  "name": "vladab/vladab-basecrm-bundle",
+  "license": "MIT",
+  "type": "symfony-bundle",
+  "description": "BaseCRM V2.0 API Object Oriented wrapper",
+  "homepage": "https://github.com/vladab/vladab-basecrm-bundle",
+  "keywords": ["base crm","basecrm","basecrm v2", "api","sales", "crm","http client", "curl"],
+  "authors": [
+    {
+      "name": "Vladica Bibeskovic",
+      "email": "vlajko85@gmail.com",
+      "homepage":"http://vladab.com",
+      "role":"Developer"
+    }
+  ],
+  "autoload": {
+    "psr-0": { "Vladab\\VladabBaseCRMBundle": "" }
+  },
+  "target-dir": "Vladab/VladabBaseCRMBundle",
+  "require": {
+    "php"                     : ">=5.4",
+    "symfony/framework-bundle": "2.*",
+    "basecrm/basecrm-php"     :"1.*",
+    "ext-curl"                : "*"
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
