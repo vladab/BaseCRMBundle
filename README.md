@@ -12,3 +12,8 @@ Wrapper bundle that makes accessing Base CRM functions easily in object oriented
 **License**
 
 BaseCRMBundle bundle released under MIT LICENSE 
+
+
+#API Methods
+
+https://github.com/basecrm/basecrm-php
