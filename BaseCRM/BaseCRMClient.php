@@ -4,18 +4,17 @@ namespace Vladab\BaseCRMBundle\BaseCRM;
 
 use BaseCRM\Client;
 
-class BaseCRM extends Client
+class BaseCRMClient extends Client
 {
-    protected $config;
+    public $config;
 
     /**
      * BaseCRM constructor.
      * @param array $config
-     * @throws \Exception
-     * @return BaseCRM/Client
      */
     public function __construct(array $config)
     {
+        $this->config = $config;
         return parent::__construct(['accessToken' => $this->config['access_token']]);
     }
 }

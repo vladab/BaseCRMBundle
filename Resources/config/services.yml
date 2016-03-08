@@ -5,5 +5,5 @@ services:
 
 services:
     vladab_base_crm:
-      class: Vladab\BaseCRMBundle\BaseCRM\BaseCRM
+      class: Vladab\BaseCRMBundle\BaseCRM\BaseCRMClient
       arguments: ["%vladabbasecrm.config%"]
